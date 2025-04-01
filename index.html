@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ezekiel's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="loader-container" id="loader">
+        <span class="loader"></span>
+        <div class="loading-quote" id="loadingQuote"></div>
+        <div class="loading-counter" id="loadingCounter"></div>
+    </div>
+    <div id="content" style="display: none">
+      <header>
+        <a href="#home" class="logo"> Ezekiel <span>Visuals</span></a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="gradient-button">Contact Me</button>
+      </header>
+
+      <section class="home" id="home">
+        <div class="home-content">
+          <h1>Hi, It's <span>Ezekiel</span></h1>
+          <h3>I'm a <span>Graphic Designer</span></h3>
+          <p>
+            Welcome to my portfolio! I'm Ezekiel a passionate graphic designer
+            dedicated to crafting visually stunning and effective designs."
+            Explore my world of creativity!
+          </p>
+          <div class="social-icon">
+            <a href="">
+              <i class="bx bxl-instagram-alt"></i>
+            </a>
+
+            <a href="">
+              <i class="bx bxl-twitter"></i>
+            </a>
+          </div>
+          <div class="btn-group">
+            <a href="" class="btn">Hire Me</a>
+            <a href="#contact" class="btn">Contact</a>
+          </div>
+        </div>
+
+        <div class="home-img">
+          <img src="./assets/gp.jpg" alt="" srcset="" />
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="/assets/gp.jpg" alt="" srcset="" />
+        </div>
+
+        <div class="about-content">
+          <h2 style="font-size: 70px">About <span>Me</span></h2>
+          <p>
+            As a graphic designer 🧑‍💻 I've honed my skills in creating engaging
+            designs that capture audiences. My expertise spans logo design,
+            branding, print, and digital media. I'm passionate about staying
+            up-to-date with industry trends and continuously pushing the
+            boundaries of creativity.
+          </p>
+          <button class="btn">Read More</button>
+
+          <div class="modal" id="readMoreModal">
+            <div class="modal-content">
+              <span class="close-btn">&times;</span>
+              <h2 style="font-size: 25px">I have a joke</h2>
+              <p style="font-family: Poppins">
+                <i
+                  >Graphic Design is my Passion... and my Stress 🎨😂 Ever spent
+                  3 hours choosing the perfect font, only to realize Comic Sans
+                  was winning? Or had a client ask, "Can you make it pop more?"
+                  without any explanation? Welcome to the life of a designer!
+                  😆</i
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+        <div class="service-container">
+          <div class="service-box">
+            <div class="service-info">
+              <i class="bx bxl-adobe"></i>
+              <h4>Graphic Design</h4>
+              <p>
+                Creativity meets strategy! From eye-catching social media posts
+                to stunning marketing materials, we bring your ideas to life
+                with professional design expertise. Let’s make your brand
+                unforgettable!
+              </p>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-info">
+              <i class="bx bx-palette"></i>
+              <h4>Logo design</h4>
+              <p>
+                Your brand’s first impression starts here! A unique, memorable
+                logo is the foundation of a strong identity. We craft custom
+                logos that tell your story and set you apart from the
+                competition.
+              </p>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-info">
+              <i class="bx bx-camera"></i>
+              <h4>Photo Editing</h4>
+              <p>
+                Transform ordinary images into masterpieces! Whether it's
+                retouching, color correction, or adding that magic touch, we
+                ensure your photos look flawless and professional.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="project" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="project-box">
+          <div class="project-card">
+            <div class="slider">
+              <div class="slides">
+                <div>
+                  <img
+                    src="/assets/images/IMG-20250107-WA0026.jpg"
+                    loading="lazy"
+                  />
+                  <div class="product-details"></div>
+                </div>
+                <div>
+                  <img
+                    src="assets/images/IMG-20250107-WA0028.jpg"
+                    loading="lazy"
+                  />
+                  <div class="product-details"></div>
+                </div>
+                <div>
+                  <img
+                    src="assets/images/IMG-20250122-WA0013.jpg"
+                    loading="lazy"
+                  />
+                  <div class="product-details"></div>
+                </div>
+                <div>
+                  <img
+                    src="assets/images/IMG-20250123-WA0012.jpg"
+                    loading="lazy"
+                  />
+                  <div class="product-details"></div>
+                </div>
+                <div>
+                  <img
+                    src="assets/images/IMG-20250205-WA0007.jpg"
+                    loading="lazy"
+                  />
+                  <div class="product-details"></div>
+                </div>
+                <div>
+                  <img
+                    src="assets/images/IMG-20250205-WA0008.jpg"
+                    loading="lazy"
+                  />
+                  <div class="product-details"></div>
+                </div>
+                <div>
+                  <img
+                    src="assets/images/95b38a2c-58fe-42f9-9a84-aa3e214a0082.jpeg"
+                    loading="lazy"
+                  />
+                  <div class="product-details"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+          <div class="input-group">
+            <div class="input-box">
+              <input type="text" placeholder="Full Name" />
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-box">
+              <input type="number" placeholder="number" />
+              <input type="text" placeholder="Subject" />
+            </div>
+          </div>
+          <div class="input-group-2">
+            <textarea
+              name=""
+              id=""
+              placeholder="Your message"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <input type="submit" value="send message" class="btn" />
+          </div>
+        </form>
+      </section>
+
+      <footer class="footer">
+        <div class="social-icon">
+          <a
+            href="https://www.instagram.com/bigfeez_5/profilecard/?igsh=MW1lODJmdzdpeXV2dg=="
+          >
+            <i class="bx bxl-instagram-alt"></i>
+          </a>
+
+          <a href="https://x.com/bigfeez_5?s=21">
+            <i class="bx bxl-twitter"></i>
+          </a>
+        </div>
+        <ul class="list">
+          <li>
+            <a href="">FAQ</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
+
+        <p class="copyright">Ezekiel Visuals | All Right Reserved</p>
+        <p class="created">Created by Oluwapelumi</p>
+      </footer>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
